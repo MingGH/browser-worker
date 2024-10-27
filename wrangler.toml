@@ -4,6 +4,11 @@ main = "src/index.js"
 compatibility_date = "2024-10-22"
 compatibility_flags = ["nodejs_compat"]
 
+browser = { binding = "MYBROWSER" }
+kv_namespaces = [
+	{ binding = "BROWSER_KV", id = "f276c91c45224bccb0b198d229a4418d", preview_id = "a6b15782d16d4108ace2c9424467fbc8" }
+]
+
 # Workers Logs
 # Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/
 # Configuration: https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs
